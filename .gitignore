@@ -118,3 +118,6 @@ Thumbs.db
 */.ipynb_checkpoints/*
 # config file
 config.py
+# Custom folder to ignore file in
+ignore_files/
+
