@@ -25,9 +25,13 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 
 * I then applied a few training models (Logistic, K-Nearest Neighbors, RandomForest, and Support Vector Classification just to name a few)
 
-![](images/sample_model_results)
+![](images/sample_model_results.png)
 
-Finally I showed all results of the tested models
+* After testing i ran some precision test(f1_score, precision_score, accuracy_score, etc.) and then I made a confusion matrix for each model to show the relationship between the 3 classifications and the probability of the outcome.
+
+![](images/knn_confusion_matrix.png)
+
+Finally I showed all results of the tested models in a neat table.
 ![](images/all_evalutions_table.png)
 
 
