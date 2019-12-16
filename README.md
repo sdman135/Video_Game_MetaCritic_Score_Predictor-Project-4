@@ -52,7 +52,8 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 * Finally I showed all results of the tested models in a neat table.
 ![](images/all_evalutions_table.png)
 
-The results showed K-Nearest Neighbors @ 3 preformed the best across the board
+I was looking for either precision or F1 Score for the determining outcome; F1 Score would be a better measure to use if we need to seek a balance between Precision and Recall AND there is an uneven class distribution (large number of Actual Negatives).
+The results showed KNN (K-Nearest Neighbors = 3) actually preformed the best across the board, through out all tests(except accuracy_score through cross validation).
 
 
 ## Built With
