@@ -28,16 +28,16 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 
 
 * Split the Critic score into 3 groups; for classification:
-1 if score is equal to OR less then 40
-2 if score is in between 51 and 74
-3 if score is equal to OR more then 75
+- 1 if score is equal to OR less then 40
+- 2 if score is in between 51 and 74
+- 3 if score is equal to OR more then 75
 
 ![](images/Critic_classification.png)
 
 * Split the Global  sales into 3 groups; for classification:
-1 if sold equal to OR less then 2.00 million
-2 if sold in between 2.01 million and 7.49 million
-3 if score is equal to OR more then 7.5 million
+- 1 if sold equal to OR less then 2.00 million
+- 2 if sold in between 2.01 million and 7.49 million
+- 3 if score is equal to OR more then 7.5 million
 
 ![](images/Classification_vs_count_vs_platform.png)
 
