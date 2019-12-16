@@ -17,11 +17,18 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 * Created Dummies variables for non-numerical data (for columns : Genre, Metacritic Score, Rating, etc.) so we can work with these data.
 * Visualized all data against each other to see if we can find any solid correlations
 
-![](images/pairplotAnime.csv.jpg)
+![](images/Picture2.png)
+
+![](images/correlation.png)
 
 * Found correlations between each category.
 
-![](images/Corr.heatmap.png)
+![](images/Picture3.png)
+
+* Split the Citic score into 3 groups;for classification:
+1 if score is equal to OR less then 40
+2 if score is in between 51 and 74
+3 if score is equal to OR more then 75
 
 * I then applied a few training models (Logistic, K-Nearest Neighbors, RandomForest, and Support Vector Classification just to name a few)
 
