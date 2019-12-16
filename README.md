@@ -6,7 +6,7 @@ Video Game Critic Score Predicting models and Bonus models for Global Sales
 
 Flatiron-Project-4-Video Game Critic Score
 
-For my fourth project in Flatiron I wanted to see if i can make a mac hine learning model to predict if a game's Metacritic score based on the data i selected. I found data on alittle more then 6500 games; with sales records, year released, Metacritic score, genre and which platform it came out on. I had to also merge all same titles into one row and combine all the platfroms tat released the game.
+For my fourth project in Flatiron I wanted to see if I can make a machine learning model to predict a game's Metacritic score based on the data I selected. Found data on a little more than 6500 games; with data on sales records, year released, Metacritic score, genre and which platform it came out on. I had to also merge all same titles into one common row and combine all the platforms that released said game. After this my total data set went down to about 4300 data points.
 
 ## What Did I Do?
 
@@ -22,7 +22,7 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 
 ![](images/correlation.png)
 
-* Found correlations between each category.
+* Found some correlations between categories.
 
 ![](images/Picture3.png)
 
@@ -35,8 +35,8 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 ![](images/Critic_classification.png)
 
 * Split the Global  sales into 3 groups; for classification:
-- 1 if sold equal to OR less then 2.00 million
-- 2 if sold in between 2.01 million and 7.49 million
+- 1 if sold equal to OR less then 1.50 million
+- 2 if sold in between 1.51 million and 7.49 million
 - 3 if score is equal to OR more then 7.5 million
 
 ![](images/Classification_vs_count_vs_platform.png)
