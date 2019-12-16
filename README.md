@@ -15,6 +15,7 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 * Cleaned .csv file and grouped games sold on different platform together .
 
 * Created Dummies variables for non-numerical data (for columns : Genre, Metacritic Score, Rating, etc.) so we can work with these data.
+
 * Visualized all data against each other to see if we can find any solid correlations
 
 ![](images/Picture2.png)
@@ -29,6 +30,8 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 1 if score is equal to OR less then 40
 2 if score is in between 51 and 74
 3 if score is equal to OR more then 75
+
+![](images/Classification_vs_count_vs_platform.png)
 
 * I then applied a few training models (Logistic, K-Nearest Neighbors, RandomForest, and Support Vector Classification just to name a few)
 
