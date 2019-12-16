@@ -38,8 +38,10 @@ For my fourth project in Flatiron I wanted to see if i can make a mac hine learn
 
 ![](images/knn_confusion_matrix.png)
 
-Finally I showed all results of the tested models in a neat table.
+* Finally I showed all results of the tested models in a neat table.
 ![](images/all_evalutions_table.png)
+
+The results showed K-Nearest Neighbors @ 3 preformed the best across the board
 
 
 ## Built With
