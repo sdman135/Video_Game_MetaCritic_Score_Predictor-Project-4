@@ -6,7 +6,7 @@ Video Game Critic Score Predicting models and Bonus models for Global Sales
 
 Flatiron-Project-4-Video Game Critic Score
 
-For my fourth project in Flatiron I wanted to see if I can make a machine learning model to predict a game's Metacritic score based on the data I selected. Found data on a little more than 6500 games; with data on sales records, year released, Metacritic score, genre and which platform it came out on. I had to also merge all same titles into one common row and combined all games that were released on multiple platforms. After this my total data set went down to about 4300 data points.
+For my fourth project in Flatiron I wanted to see if I can make a machine learning model to predict a video game's Metacritic score based on the data I selected. Found data on a little more than 6500 games; with data on sales records, year released, Metacritic score, genre and which platform it came out on. I had to also merge all same titles into one common row and combined all games that were released on multiple platforms. After this my total data set went down to about 4300 data points.
 
 ## What Did I Do?
 
@@ -41,7 +41,7 @@ For my fourth project in Flatiron I wanted to see if I can make a machine learni
 
 ![](images/Classification_vs_count_vs_platform.png)
 
-* I then applied a few training models (Logistic, K-Nearest Neighbors, RandomForest, and Support Vector Classification just to name a few)
+* I then trained my data to a few models (Logistic Regression, K-Nearest Neighbors, RandomForest, and Support Vector Classification, Bagging Trees, Decision Tree and BernoulliNB)
 
 ![](images/sample_model_results.png)
 
@@ -55,6 +55,10 @@ For my fourth project in Flatiron I wanted to see if I can make a machine learni
 I was looking for either precision or F1 Score for the determining outcome; F1 Score would be a better measure to use if we need to seek a balance between Precision and Recall (taking account for False Positive and True Negatives errors).
 
 The results showed KNN (K-Nearest Neighbors = 3) actually preformed the best across the board(except accuracy_score using cross validation; which again is fine, looking more for precision or F1 score).
+
+It seems K-Nearest Neighbors was the best because, based on the features I used, the model was trained to  picks similar values( within 3) to the features of a known MetaCritic scores to base the predictions on.
+
+
 
 
 ## Built With
