@@ -6,7 +6,7 @@ Video Game Critic Score Predicting models and Bonus models for Global Sales
 
 Flatiron-Project-4-Video Game Critic Score
 
-For my fourth project in Flatiron I wanted to see if I can make a machine learning model to predict a game's Metacritic score based on the data I selected. Found data on a little more than 6500 games; with data on sales records, year released, Metacritic score, genre and which platform it came out on. I had to also merge all same titles into one common row and combine all all games that released multiple platforms. After this my total data set went down to about 4300 data points.
+For my fourth project in Flatiron I wanted to see if I can make a machine learning model to predict a game's Metacritic score based on the data I selected. Found data on a little more than 6500 games; with data on sales records, year released, Metacritic score, genre and which platform it came out on. I had to also merge all same titles into one common row and combined all games that were released on multiple platforms. After this my total data set went down to about 4300 data points.
 
 ## What Did I Do?
 
