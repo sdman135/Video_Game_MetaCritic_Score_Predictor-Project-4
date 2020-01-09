@@ -6,13 +6,13 @@ Video Game Critic Score Predicting models and Bonus models for Global Sales
 
 Flatiron-Project-4-Video Game Critic Score
 
-For my fourth project in Flatiron I wanted to see if I can make a machine learning model to predict a game's Metacritic score based on the data I selected. Found data on a little more than 6500 games; with data on sales records, year released, Metacritic score, genre and which platform it came out on. I had to also merge all same titles into one common row and combine all the platforms that released said game. After this my total data set went down to about 4300 data points.
+For my fourth project in Flatiron I wanted to see if I can make a machine learning model to predict a game's Metacritic score based on the data I selected. Found data on a little more than 6500 games; with data on sales records, year released, Metacritic score, genre and which platform it came out on. I had to also merge all same titles into one common row and combine all all games that released multiple platforms. After this my total data set went down to about 4300 data points.
 
 ## What Did I Do?
 
 * Imported .cvs file, and api called for missing data
 
-* Cleaned .csv file and grouped games sold on different platform together .
+* Cleaned .csv file and grouped same games sold on different platform together.
 
 * Created Dummies variables for non-numerical data (for columns : Genre, Metacritic Score, Rating, etc.) so we can work with these data.
 
@@ -52,9 +52,9 @@ For my fourth project in Flatiron I wanted to see if I can make a machine learni
 * Finally I showed all results of the tested models in a neat table.
 ![](images/all_evalutions_table.png)
 
-I was looking for either precision or F1 Score for the determining outcome; F1 Score would be a better measure to use if we need to seek a balance between Precision and Recall AND there is an uneven class distribution (large number of Actual Negatives).
+I was looking for either precision or F1 Score for the determining outcome; F1 Score would be a better measure to use if we need to seek a balance between Precision and Recall (taking account for False Positive and True Negatives errors).
 
-The results showed KNN (K-Nearest Neighbors = 3) actually preformed the best across the board, throughout all tests(except accuracy_score using cross validation; which again is fine, looking more for precision or F1 score).
+The results showed KNN (K-Nearest Neighbors = 3) actually preformed the best across the board(except accuracy_score using cross validation; which again is fine, looking more for precision or F1 score).
 
 
 ## Built With
