@@ -22,6 +22,8 @@ For my fourth project in Flatiron I wanted to see if I can make a machine learni
 
 ![](images/correlation.png)
 
+![](images/Plot_Avg_Sales_by_Markets_and_Consoles.png)
+
 * Found some correlations between categories.
 
 ![](images/Picture3.png)
