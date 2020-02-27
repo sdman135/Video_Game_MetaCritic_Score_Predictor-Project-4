@@ -56,7 +56,7 @@ I was looking for either precision or F1 Score for the determining outcome; F1 S
 
 The results showed KNN (K-Nearest Neighbors = 3) actually preformed the best across the board(except accuracy_score using cross validation; which again is fine, looking more for precision or F1 score).
 
-It seems K-Nearest Neighbors was the best because, based on the features I used, the model was trained to  picks similar values( within 3) to the features of a known MetaCritic scores to base the predictions on.
+It seems K-Nearest Neighbors was the best because, based on the features I used, the model was trained to pick similar features  of a known MetaCritic scores (within 3 video games) to base the predictions on.
 
 
 
