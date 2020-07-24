@@ -122,4 +122,4 @@ Thumbs.db
 config.py
 # Custom folder to ignore file in
 /ignore_files
-DataFrames/*
+/DataFrames
