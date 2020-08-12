@@ -78,4 +78,4 @@ Add me on LinkedIn if you liked it.
 
 ## Authors
 
-* **Samuel Diaz** - *Creator* - [sdman135](https://github.com/sdman135/)
+* **Samuel Diaz** - *Creator* - [sdman135](https://github.com/sdman135/) - [LinkedIn](https://www.linkedin.com/in/samuel-diaz-data-scientist)
