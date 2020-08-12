@@ -61,7 +61,9 @@ The results showed KNN (K-Nearest Neighbors = 3) actually preformed the best acr
 It seems K-Nearest Neighbors was the best because, based on the features I used, the model was trained to pick similar features  of a known MetaCritic scores (closest 3 video games) to base the predictions on.
 
 
-Hope You enjoyed my Video Game MetaCritic Score Predictor Project
+
+
+Hope You enjoyed my Video Game MetaCritic Score Predictor Project.
 
 Add me on LinkedIn if you liked it.
 
