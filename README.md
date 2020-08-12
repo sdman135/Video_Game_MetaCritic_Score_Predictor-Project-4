@@ -71,7 +71,7 @@ Add me on LinkedIn if you liked it.
 
 ## Built With
 
-* Python3.8
+* Python 3.8
 * Jupyter Notebook 6.0.0
 * A few imports: pandas, numpy, matplotlib.pyplot, seaborn, statsmodels and sklearn
 
